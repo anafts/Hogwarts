@@ -1,0 +1,67 @@
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 30px;
+    background-color:  #FFF8EA;
+}
+
+/* Header styles */
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, #815b5be4, #594545db), 
+                      url(../images/headerBG2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+
+    position: relative;
+
+    clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100% );
+}
+
+.header__logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.header__img {
+    height: 85px;
+}
+
+.header__content {
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header__title {
+    color:  #FFF8EA;
+    text-transform: uppercase;
+}
+
+.header__title--big {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.header__title--small {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
