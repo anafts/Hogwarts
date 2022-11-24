@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": " sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anafts/Hogwarts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anafts/Hogwarts/issues"
+  },
+  "homepage": "https://github.com/anafts/Hogwarts#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
